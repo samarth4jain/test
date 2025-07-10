@@ -2,6 +2,7 @@
 
 
 flowchart TD
+
     A[Teacher Input<br/>Voice / Photo / Text] --> B{Cloud Functions}
     B --> C1[Gemini Model<br/>Text/Image Generation]
     B --> C2[Vertex AI STT / TTS<br/>Speech Processing]
